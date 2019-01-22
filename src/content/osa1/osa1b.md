@@ -442,7 +442,7 @@ Jos yritämme samaa metodille _greet_, aiheutuu ongelmia:
 ```js
 arto.greet()       // tulostuu hello, my name is Arto Hellas
 
-const referenceToGreet = arto.referenceToGreet
+const referenceToGreet = arto.greet
 referenceToGreet() // tulostuu hello, my name is undefined
 ```
 
