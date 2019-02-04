@@ -184,7 +184,7 @@ Nyt axios on mukana riippuvuuksien joukossa:
 {
   "dependencies": {
     "axios": "^0.18.0", // highlight-line
-    "json-server": "^0.14.2",
+    "json-server": "^0.14.2", // highlight-line
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
     "react-scripts": "2.1.3"
@@ -210,7 +210,7 @@ ja tehdään tiedoston <i>package.json</i> osaan <i>scripts</i> pieni lisäys
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom", // highlight-line
     "eject": "react-scripts eject",
     "server": "json-server -p3001 db.json"  // highlight-line
   }
