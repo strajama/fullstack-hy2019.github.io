@@ -336,7 +336,7 @@ const initialNotes = [
 ]
 
 beforeEach(async () => {
-  await Note.remove({})
+  await Note.deleteMany()
 
   let noteObject = new Note(initialNotes[0])
   await noteObject.save()
